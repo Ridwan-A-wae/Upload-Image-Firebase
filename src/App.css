@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headder {
+border-bottom : 1px solid silver;
+padding-bottom: 2rem;
+margin-bottom: 1rem;
+}
+
+.imageGrid {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10px;
+}
+
+.imageContainer {
+display: flex;
+justify-content: center;
+margin-bottom: -5rem;
+}
+
+.imagePreview {
+  object-fit: contain;
+  width: 300px;
+  height: 300px;  
+}
